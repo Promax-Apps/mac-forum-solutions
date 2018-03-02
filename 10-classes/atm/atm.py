@@ -20,7 +20,6 @@ class ATM:
 
         else:
             self.balance -= request
-            self.withdrawals_list.append(request)
             ATM.process_request(request)
 
         print(sep + "\n")
