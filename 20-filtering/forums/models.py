@@ -15,4 +15,4 @@ class Post:
         self.content = content
 
     def __str__(self):
-	return "Title: {}, Content: {}".format(self.title, self.content)
+		return "Title: {}, Content: {}".format(self.title, self.content)
